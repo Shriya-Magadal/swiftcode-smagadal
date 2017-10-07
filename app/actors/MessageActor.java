@@ -23,7 +23,7 @@ public class MessageActor extends UntypedActor {
     public MessageActor(ActorRef out) {
         this.out = out;
     }
-    public void onRecieve(Object message) throws Exception{
+    public void onReceive(Object message) throws Throwable{
         ObjectMapper mapper= new ObjectMapper();
         Message messageObject = new Message();
         if (message instanceof String) {
