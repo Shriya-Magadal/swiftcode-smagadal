@@ -5,6 +5,7 @@ public class Message {
     public String text;
     public Sender sender;
     public String time;
+    public FeedResponse feedResponse;
 
 
 }
