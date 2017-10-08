@@ -1,6 +1,18 @@
 #message-pane {
-    background: url(http://www.lifewallpapers.net/data/out/93/4338781-dark-3d-wallpapers.jpg);
+    background: url(http://media.idownloadblog.com/wp-content/uploads/2016/11/Animated-GIF-Banana.gif);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom
+    background-size: contain ;
+    background-position: center center;
+}
+.message-card{
+max-width: 45%;
+border-radius:10px;
+padding:10px;
+font-size:18px;
+}
+.message-time{
+margin-top:4px;
+float:right;
+color:#666667;
+font-size:10px;
 }
