@@ -3,9 +3,9 @@
 
 
 #message-pane {
-    background: url(https://avante.biz/wp-content/uploads/Orange-Black-Wallpaper/Orange-Black-Wallpaper-001.jpg);
+    background:url(https://avante.biz/wp-content/uploads/Orange-Black-Wallpaper/Orange-Black-Wallpaper-001.jpg);
     background-repeat: no-repeat;
-    background-size: contain ;
+    background-size: cover ;
     background-position: cover;
 }
 .message-card{
